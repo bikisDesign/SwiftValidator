@@ -112,7 +112,7 @@
 		7CC1E4DA1C63BFA600AF013C /* HexColorRule.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HexColorRule.swift; sourceTree = "<group>"; };
 		8944E4861DC1263D00F41003 /* PaycheckRule.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaycheckRule.swift; sourceTree = "<group>"; };
 		8944E4881DC1264E00F41003 /* MinDateRule.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MinDateRule.swift; sourceTree = "<group>"; };
-		8944E48A1DC1265A00F41003 /* DateConvertable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DateConvertable.swift; path = ../Rules/DateConvertable.swift; sourceTree = "<group>"; };
+		8944E48A1DC1265A00F41003 /* DateConvertable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateConvertable.swift; sourceTree = "<group>"; };
 		FB465CB31B9884F400398388 /* SwiftValidator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftValidator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB465CB61B9884F400398388 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FB465CB71B9884F400398388 /* SwiftValidator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwiftValidator.h; sourceTree = "<group>"; };
@@ -270,8 +270,10 @@
 		FB465CE21B9889EA00398388 /* Rules */ = {
 			isa = PBXGroup;
 			children = (
-				7CC1E4CE1C636B4500AF013C /* AlphaRule.swift */,
 				8944E4861DC1263D00F41003 /* PaycheckRule.swift */,
+				8944E4881DC1264E00F41003 /* MinDateRule.swift */,
+				8944E48A1DC1265A00F41003 /* DateConvertable.swift */,
+				7CC1E4CE1C636B4500AF013C /* AlphaRule.swift */,
 				7CC1E4D01C637A7700AF013C /* AlphaNumericRule.swift */,
 				7CC1E4D21C637ABC00AF013C /* CharacterSetRule.swift */,
 				7CC1E4D41C637C8500AF013C /* IPV4Rule.swift */,
@@ -282,7 +284,6 @@
 				FB465CE51B9889EA00398388 /* FloatRule.swift */,
 				FB465CE61B9889EA00398388 /* FullNameRule.swift */,
 				FB465CE71B9889EA00398388 /* MaxLengthRule.swift */,
-				8944E4881DC1264E00F41003 /* MinDateRule.swift */,
 				FB465CE81B9889EA00398388 /* MinLengthRule.swift */,
 				FB465CE91B9889EA00398388 /* PasswordRule.swift */,
 				FB465CEA1B9889EA00398388 /* PhoneNumberRule.swift */,
@@ -304,7 +305,6 @@
 				FB465CF21B9889EA00398388 /* Validator.swift */,
 				FB51E5AF1CD208B8004DE696 /* Validatable.swift */,
 				FBA963621CDA10130071F03E /* ValidatorDictionary.swift */,
-				8944E48A1DC1265A00F41003 /* DateConvertable.swift */,
 			);
 			path = Core;
 			sourceTree = "<group>";
